@@ -2,16 +2,15 @@
     <head>
         <title>To-Do App</title>
         <link rel="stylesheet" href="style.css"> 
-        <script src="app.js"></script>
     </head>
     <body>
         <div id="container">
             <h1>Todo's</h1>
-            <input type="text" placeholder="Input your task!">
-            <input type="date">
-            <input type="time">
+            <input id="task" type="text" placeholder="Input your task!">
+            <input id="date" type="date">
+            <input id="time" type="time">
             <button id="entry">Add task</button>
-            <button>Remove task</button>
+            <button id="remove">Remove task</button>
         </div>
 
     <table id="display">
@@ -22,6 +21,7 @@
         </tr>
 
     </table>
+    <script src="app.js"></script>
 
 
 

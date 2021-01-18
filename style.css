@@ -11,15 +11,16 @@ html{
     background: linear-gradient(to right, #003cff,#3d6bff, #ffffff);
     text-align: center;
 }
-
-#display{
+table{
     position: absolute;
-    font-family: sans-serif;
-    top: 20%;
-    right: 35%;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: #c9c9c9;
+    top: 15%;
+    right: 30%;
 }
-
-tr, th{
-    padding: 5rem;
-    border-style: dotted;
+table,th,td{
+    border: 2px solid black;
+    padding: 5px;
 }
