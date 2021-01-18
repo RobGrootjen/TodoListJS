@@ -1,11 +1,25 @@
 *{
     margin:0;
-    padding: 0;
+}
+#container{
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    font-family: sans-serif;
+}
+html{
+    background: linear-gradient(to right, #003cff,#3d6bff, #ffffff);
+    text-align: center;
 }
 
-.container{
+#display{
     position: absolute;
-    top: 30%;
-    right: 50%;
-    border-style: groove
+    font-family: sans-serif;
+    top: 20%;
+    right: 35%;
+}
+
+tr, th{
+    padding: 5rem;
+    border-style: dotted;
 }

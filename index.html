@@ -1,23 +1,27 @@
 <html>
     <head>
-        <title>Todo List</title>
-        <link rel="stylesheet" href="style.css">  
+        <title>To-Do App</title>
+        <link rel="stylesheet" href="style.css"> 
         <script src="app.js"></script>
     </head>
     <body>
-        <div class="container">
-            <h1>To-Do List</h1>
-            <div class="container2">
-                <input type="text" placeholder="Add an item!">
-                <button>Submit</button>
-                <Button>Clear List</Button>
-            </div>
+        <div id="container">
+            <h1>Todo's</h1>
+            <input type="text" placeholder="Input your task!">
+            <input type="date">
+            <input type="time">
+            <button id="entry">Add task</button>
+            <button>Remove task</button>
         </div>
 
+    <table id="display">
+        <tr>
+            <th>Task</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
 
-
-
-
+    </table>
 
 
 
